@@ -1,0 +1,53 @@
+.MuiTypography-root, .MuiTableCell-root, .MuiTablePagination-displayedRows  {
+    color :  #e5e7eb!important;
+}
+.MuiTableContainer-root  {
+    background: #202e39;
+}
+.MuiTableRow-root.MuiTableRow-hover {
+    transition: 0.25s;
+}
+.MuiInputBase-input {
+    color: white!important;
+}
+.MuiToolbar-root {
+    background: #173f5f!important;
+}
+.MuiTableRow-root {
+    background: #173f5f;
+}
+.MuiButtonBase-root.MuiIconButton-root, .MuiSvgIcon-root.MuiSelect-icon, .MuiTablePagination-selectLabel {
+    color: #e5e7eb
+}
+.MuiToolbar-root {
+    border-bottom: 1px solid #302b27;
+}
+.MuiSvgIcon-fontSizeMedium, .Mui-active {
+    color : #e5e7eb!important;
+}
+.MuiTableSortLabel-root:hover {
+    color: #e5e7eb!important;
+    opacity: 0.8;
+}
+.MuiTableSortLabel-root {
+    font-size: 18px;
+}
+.MuiTablePagination-root {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.MuiPaper-root > .MuiToolbar-gutters {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.MuiPaper-root {
+    background-color: #26211d!important;
+    
+}
+.MuiTableContainer-root {
+    min-height: 734px!important;
+}
+.checkIcon > .MuiSvgIcon-root {
+    width: 1.2em!important;
+    height: 1.2em!important;
+}

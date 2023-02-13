@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+  box-sizing: border-box;
+}
+.login-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.box {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: #25201c;
+    height: 100vh;
+}
+.login-form {
+    min-width: 250px;
+    max-width: 380px;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #173f5f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #e5e7eb;
+}
+.login-form > input {
+    outline: none;
+    height: 40px;
+}
+.login-form input[type = "text"] {
+    margin-top: 30px;
+}
+.login-form input[type = "password"] {
+    margin-top: 10px;
+}
+#login-submit-btn {
+    background-color: #20639b;
+    width: 100%;
+    height: 40px;
+    color: #e5e7eb;
+    border: none;
+    margin-top: 35px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.25s;
+}
+#login-submit-btn:hover {
+    background-color: #316a99;
+}
+#login-submit-btn:active {
+    background-color: #46759c;
+}
+#signUp-submit-btn {
+    background-color: #20639b;
+    width: 100%;
+    height: 40px;
+    color: #e5e7eb;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.25s;
+}
+#signUp-submit-btn:hover {
+    background-color: #316a99;
+}
+#signUp-submit-btn:active {
+    background-color: #46759c;
+}
+.login-form input[type = "submit"]:hover {
+    opacity: 0.8;
+}
+.login-form input[type = "text"]:focus, .login-form input[type = "password"]:focus {
+    border: 2px #20639b solid;
+}
+.login-form input[type = "text"], .login-form input[type = "password"] {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-seriff;
+    padding: 15px;
+} 
+.links {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #20639b;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e5e7eb;
+    text-decoration: none;
+    font-family: 'Raleway';
+    transition: 0.25s;
+}
+.links > a:hover {  
+    opacity: 0.6;
+}
+#LoginID, #LoginPassword, #LoginName, #LoginMail {
+    color: whitesmoke;
+}
+#LoginID-label,#LoginPassword-label, #LoginName-label, #LoginMail-label {
+    color: whitesmoke;
+}

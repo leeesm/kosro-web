@@ -1,0 +1,21 @@
+.progressionList-bg {
+    background-color: #173f5f;
+}
+.css-r40f8v-MuiTypography-root {
+    color :  #e5e7eb!important;
+}
+.progression-unit {
+    /* background: #20639b;
+    border: none;
+    border-radius: 4px; */
+    transition: 0.25s;
+}
+.progression-unit:hover {
+    background-color: #316a99;
+}
+.progression-unit:active {
+    background-color: #46759c;
+}
+.progression-text {
+    align-self: center;
+}

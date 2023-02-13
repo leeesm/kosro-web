@@ -1,0 +1,21 @@
+.signOutButton, .openManagementButton {
+    cursor: pointer;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 2.75;
+    letter-spacing: 0.02857em;
+    text-transform: capitalize;
+    min-width: 64px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    transition: 0.25s;
+}
+.signOutButton:hover, .openManagementButton:hover {
+    background-color: #316a99;
+}
+.signOutButton:active, .openManagementButton:active {
+    background-color: #46759c;
+}
